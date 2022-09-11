@@ -1,0 +1,389 @@
+/* start main rules */
+body{
+
+}
+
+.continer {
+  margin: auto;
+  width:1170px;
+}
+.header .slider{
+  height:600px;
+  background-color: #eee;
+    background-image: url(../images/he.jpg);
+ }
+.header .slider .intro{
+  padding-top: 200px;
+  text-align: center;
+  color: #fff;
+}
+.header .slider h3{
+  margin: 0px;
+  text-align: center;
+  font-size: 50px;
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  padding: 3px;
+  width: 60%;
+  margin: 0px auto;
+}
+#b{
+background: none;
+width: 140px;
+margin-top: 30px;
+font-size: 20px;
+border: 1px solid  #fff;
+color: #fff;
+font-weight: bolder;
+}
+.header .nav{
+  background-color: #252f31;
+  color: #fff;
+  overflow:hidden;
+}
+.header .nav h2{
+  text-transform: capitalize;
+  float:left;
+}
+.header .nav h2 span{color:#2ecc71;}
+.header .nav ul{
+  list-style: none;
+  padding-left: 0;
+  overflow: hidden;
+}
+.header .nav ul li{
+  float:right;
+  padding: 20px;
+}
+.header .nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.header .nav ul li:last-child{
+  background-color: green;
+}
+.header .nav ul li a:hover{
+  color: green;
+}
+
+/* start of feature*/
+.feature{
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.feature .feat1{
+
+  width: 33.33333%;
+  height: 250px;
+float: left;
+}
+.feature .feat1 h2{
+  text-transform: capitalize;
+  color: #555;
+  font-weight: bolder;
+  font-size: 30px;
+  text-indent: 2px;
+
+}
+.feature .feat1 p{
+  line-height: 1.7;
+  color: #888;
+  font-weight: bolder;
+  text-align: justify;
+  padding: 20px;
+}
+
+/* end of feature*/
+
+/*start about me*/
+.about{
+  background: #ddd;
+  overflow: hidden;
+  width: 99%;
+  margin: auto;
+  margin-top: 10px;
+}
+.about .img{
+  float:left;
+  width: 40%;
+}
+.about .img img{
+  width: 100%;
+  height: 600px;
+}
+.about .info {
+  float: left;
+  width: 60%;
+}
+.about .info h2 {
+  color: #555;
+  margin: 40px 0px 20px  40px;
+}
+.about .info > p{
+  margin: 0px 0px 20px 40px;
+font-weight: bolder;
+font-size: 20px;
+}
+.about .info > p:last-of-type{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about .info p{
+line-height: 1.7;
+color: #666;
+margin-left: 20px;
+}
+.about .info .Hop{
+  overflow: hidden;
+  margin: 20px 0px 20px 40px;
+}
+.about .info .Hop H3{
+  color: #555;
+  text-align: center;
+}
+.about .info .Hop .about {
+  float: left;
+  width: 50%;
+  min-height: 100px;
+    overflow: hidden;
+}
+.about .info .Hop .about .icons{
+  float: left;
+  width: 20%;
+}
+.about .info .Hop .about .icons img{
+  max-width: 100%;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+.about .info .Hop .about .text{
+  float: left;
+  width:70%;
+}
+
+
+/* end about me*/
+/* my skills*/
+.skill{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.skill .sk p{
+margin: 0px 0px 10px 40px;
+line-height: 1.6;
+color: #666;
+font-weight: bolder;
+font-size: 20px;
+}
+.skill .sk h3{
+  margin:  25px 0 20px 40px;
+  color: #555;
+  font-size: 20px;
+  font-weight: bolder;
+   }
+   .sojod {
+     background:none;
+     border: 3px solid #2dcc70;
+     padding: 10px 30px;
+     color: #2dcc70;
+     margin-top: 20px;
+     margin-left: 40px;
+   }
+.sk{
+  float: left;
+  width: 45%;
+}
+.prog{
+  float: left;
+  width: 45%;
+margin-left: 20px;
+}
+.skill .prog .tec h3{
+  color: #555;
+}
+.skill .prog .tec div{
+  background-color: #f2f2f2;
+  height: 25px;
+
+}
+.skill .prog .tec div span{
+  background-color: #2dcc70;
+  display: block;
+  height: 25px;
+  text-align: right;
+  color: white;
+
+}
+
+.cl{
+  clear: both;
+}
+
+/* end skills*/
+
+/* start resume*/
+.rasume {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  background-color: #eee;
+  text-align: center;
+  height: 250px;
+  padding: 5px;
+  overflow: hidden;
+}
+.rasume h2{
+  margin-top: 20px;
+  padding: 10px;
+}
+.rasume button{
+  margin-top: 20px;
+}
+.rasume p{
+  font-weight: bolder;
+  line-height: 1.7;
+color: #666;
+
+}
+/* end resume*/
+/* start edu */
+.ed{
+  background-color: #ddd;
+}
+.ed .main{
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+.ed .xp{
+  float: left;
+  width: 45%;
+}
+.ed .xp h3{
+  margin-top: 30px;
+  margin-bottom: 6px;
+  color: #777;
+  font-size: 30px;
+}
+.ed .xp span{
+  display: inline-block;
+  background: green;
+  width: 200px;
+  text-align: center;
+
+}
+.ed .xp button{
+  background-color: green;
+}
+/* end edu*/
+/* start work */
+.work{
+  padding: 4px;
+  margin-top: 10px;
+  text-align: center;
+}
+.work h3{
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 50px;
+}
+.work p{
+  margin-bottom: 20px;
+  font-size: 30px;
+line-height: 1;
+color: #555;
+}
+.our{
+  overflow: hidden;
+}
+.our > div{
+  overflow: hidden;
+  float: left;
+  width: 33.3333%;
+}
+.our > div img{
+  width:92%;
+  margin:10px;
+}
+/* end work*/
+/* start contact me */
+.contact{
+  background-color: #252f31;
+  overflow: hidden;
+}
+.contact h2{
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.contact .info2{
+  float: left;
+  width: 50%;
+}
+.contact .info2 p{
+  color:  #555;
+  font-size: 20px;
+font-weight: bolder;
+}
+.contact .info2 span{
+  display: inline;
+margin-left: 50px;
+}
+#r{
+  color: white;
+}
+
+.contact .form{
+  float: left;
+  width: 50%;
+}
+.contact .form input{
+  display: block;
+}
+.contact .form label{
+color:white;
+}
+#in{
+  width: 350px;
+  height: 27px;
+  background-color: #444;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact .form
+
+/* end contect me*/
+/* start footer */
+
+.foter{
+  background-color: #191e22;
+  color: white;
+  padding: 20px 0px;
+  text-align: center;
+  overflow: hidden;
+
+}
+.foter span{
+  text-align: center;
+  font-size: 30px;
+
+  float: left;
+  margin-top: 50px;
+}
+.foter ul{
+  list-style: none;
+  float:right;
+}
+.foter ul li{
+  padding: 4px;
+  text-align: center;
+  display: inline-block;
+}
+.foter ul li:hover{
+  background-color: red;
+
+
+}
+
+/* end footer */
